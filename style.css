@@ -14,6 +14,11 @@ body {
   padding: 16px;
   background-color: #CED3D9;
 }
+@media (min-width: 768px) {
+  body {
+    gap: 24px;
+  }
+}
 
 /* HEADER */
 .header {
@@ -108,6 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
   gap: 11px;
   height: 177px;
   max-height: fit-content;
@@ -201,6 +207,9 @@ body {
   line-height: 1.3125rem;
   letter-spacing: -0.02rem;
   color: #0B0C12;
+}
+.main-texto-porcentagem {
+  margin-bottom: 8px;
 }
 .main-texto-porcentagem h4 {
   font-weight: 700;

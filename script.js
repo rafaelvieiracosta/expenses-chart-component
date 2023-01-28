@@ -65,7 +65,7 @@ function geraSaldo() {
 function geraPorcentagem() {
   const porcentagem = 2.4;
 
-  porcentagemDoMesPassado.innerHTML = `${porcentagem}%`;
+  porcentagemDoMesPassado.innerHTML = `+${porcentagem}%`;
   porcentagemDoMesPassado.classList.remove('skeleton');
 }
 
